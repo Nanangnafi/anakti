@@ -1,7 +1,5 @@
 <?php
-$server = "localhost";
-$user = "root";
-$password = "";
-$database = "login";
 
-$koneksi = mysqli_connect($server, $user, $password, $database) or die(mysqli_error($koneksi));
+$koneksi = mysqli_connect("localhost","root","","db_pendaftarankp");
+
+?>
